@@ -6617,23 +6617,23 @@ ARjs.SessionDebugUI = function(arSession, tangoPointCloud){
 	//		current-tracking-backend
 	//////////////////////////////////////////////////////////////////////////////
 
-	var domElement = document.createElement('span')
+	/*var domElement = document.createElement('span')
 	domElement.style.display = 'block'
 	this.domElement.appendChild(domElement)
-	domElement.innerHTML = '<b>trackingBackend</b> : ' +trackingBackend
+	domElement.innerHTML = '<b>trackingBackend</b> : ' +trackingBackend*/
 	
 	//////////////////////////////////////////////////////////////////////////////
 	//		augmented-websites
 	//////////////////////////////////////////////////////////////////////////////
 
-	if( ARjs.SessionDebugUI.AugmentedWebsiteURL ){
+	/*if( ARjs.SessionDebugUI.AugmentedWebsiteURL ){
 		var domElement = document.createElement('a')
 		domElement.innerHTML = 'Share on augmented-websites'
 		domElement.style.display = 'block'
 		// domElement.setAttribute('target', '_blank')
 		domElement.href = ARjs.SessionDebugUI.AugmentedWebsiteURL + '?'+location.href
 		this.domElement.appendChild(domElement)						
-	}
+	}*/
 
 	//////////////////////////////////////////////////////////////////////////////
 	//		toggle-point-cloud
@@ -6703,11 +6703,11 @@ ARjs.AnchorDebugUI = function(arAnchor){
 	//		current-tracking-backend
 	//////////////////////////////////////////////////////////////////////////////
 
-	var domElement = document.createElement('span')
+	/*var domElement = document.createElement('span')
 	domElement.style.display = 'block'
 	this.domElement.appendChild(domElement)
 	domElement.innerHTML = '<b>markersAreaEnabled</b> :' +arAnchor.parameters.markersAreaEnabled
-
+*/
 	//////////////////////////////////////////////////////////////////////////////
 	//		toggle-marker-helper
 	//////////////////////////////////////////////////////////////////////////////
