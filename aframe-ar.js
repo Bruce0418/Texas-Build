@@ -8230,8 +8230,8 @@ AFRAME.registerComponent('arjs-anchor', {
 					document.body.appendChild(containerElement)
 				}
 				// create anchorDebugUI
-				var anchorDebugUI = new ARjs.AnchorDebugUI(arAnchor)
-				containerElement.appendChild(anchorDebugUI.domElement)
+				/*var anchorDebugUI = new ARjs.AnchorDebugUI(arAnchor)
+				containerElement.appendChild(anchorDebugUI.domElement)*/
 			}
 		}, 1000/60)
 	},
@@ -8429,7 +8429,7 @@ AFRAME.registerSystem('arjs', {
 		},
 		debugUIEnabled :{
 			type: 'boolean',	
-			default: true,			
+			default: false,			
 		},
 		areaLearningButton : {
 			type: 'boolean',	
@@ -8649,8 +8649,9 @@ AFRAME.registerSystem('arjs', {
 				}
 
 				// create sessionDebugUI
-				var sessionDebugUI = new ARjs.SessionDebugUI(arSession)
-				containerElement.appendChild(sessionDebugUI.domElement)
+				
+				/*var sessionDebugUI = new ARjs.SessionDebugUI(arSession)
+				containerElement.appendChild(sessionDebugUI.domElement)*/
 			}
 		})
 
